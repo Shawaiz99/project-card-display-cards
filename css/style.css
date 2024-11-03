@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', 'sans-serif';
+    background: url(../assets/pattern.png);
+    background-size: 500px;
 }
 
 * {
@@ -14,6 +16,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
 }
 
 .card h1 {
@@ -112,4 +115,8 @@ a {
     background-repeat: no-repeat;
     background-position: right;
     background-size: 200px;
+}
+
+i {
+    margin: 6px;
 }
