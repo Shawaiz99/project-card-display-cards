@@ -18,8 +18,77 @@ body {
 
 .card h1 {
     margin-bottom: 20px;
+    font-weight: 800px;
 }
 
 .card p {
-    
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+/* Economy */
+
+.card-economy h1 {
+    color: salmon;
+}
+
+.card-economy a {
+    background-color: salmon;
+}
+
+.card-economy a:hover {
+    background-color: rgb(203, 104, 93);
+}
+
+.card-economy a:active {
+    background-color: rgb(180, 93, 83);
+}
+
+/* Luxury */
+
+.card-luxury h1 {
+    color: rgb(182, 154, 0);
+}
+
+.card-luxury a {
+    background-color: rgb(182, 154, 0);
+}
+
+.card-luxury a:hover {
+    background-color: rgb(113, 97, 8);
+}
+
+.card-luxury a:active {
+    background-color: rgb(131, 111, 0);
+}
+
+/* Family */
+
+.card-family h1 {
+    color: chocolate;
+}
+
+.card-family a {
+    background-color: chocolate;
+}
+
+.card-family a:hover {
+    background-color: rgb(171, 86, 26);
+}
+
+.card-family a:active {
+    background-color: rgb(143, 73, 23);
+}
+
+/* Style Link Buttons */
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5%;
+    font-size: 18px;
+    margin-top: 5px;
 }
