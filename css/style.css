@@ -92,3 +92,24 @@ a {
     font-size: 18px;
     margin-top: 5px;
 }
+
+.card-economy {
+    background-image: url(./../assets/economic-car.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+}
+
+.card-luxury {
+    background-image: url(./../assets/luxury-car.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+}
+
+.card-family {
+    background-image: url(./../assets/family-car.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+}
